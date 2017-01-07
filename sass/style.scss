@@ -187,21 +187,50 @@ figure {
 	width: 1px;
 	// background-color: red;
 }
-.projectText{
+.projectDescription{
 	@media screen and (max-width: $screen-sm) {
 		font-size: 14px;
 	}
 	font-size: 16px;
 	font-weight: 300;
+	position: relative;
+	float:left;
+	b{
+		font-weight: 400;
+		color: black;
+	}
+}
+.projectType{
+	position: relative;
+	margin-bottom: 10px;
 }
 .projectTitle{
-	font-weight: 400;
+	// position: relative;
+	// float:left;
+	// font-size: 16px;
+	font-weight: 100;
 	color: black;
 }
 .projectYear{
 	font-weight: 400;
 	color: rgba(0,0,0,0.3);
+	// color: white;
 }
+.ux-project, .id-project, .projectYear{
+	position: relative;
+	float: left;
+	padding:0px 7px;
+	font-size: 12px;
+	border-radius: 3px;
+	// color: white;
+	margin-right:5px;
+	margin-bottom:10px;
+	border-style: solid;
+	border-width:1px;
+}
+.id-project{ border-color: #ff9800; color: #ff9800; }
+.ux-project{ border-color: #03A9F4; color: #03A9F4; }
+.projectYear{ border-color: rgba(0,0,0,0.3); color: rgba(0,0,0,0.3);}
 #fh5co-page {
 		@media screen and (max-width: $screen-sm) {
 			top:80px;
@@ -327,7 +356,7 @@ figure {
 					letter-spacing: .2em;
 					font-family: $font-secondary;
 					&.-selected:after{
-						@media screen and (max-width: $screen-sm) { display: none; }
+						// @media screen and (max-width: $screen-sm) { display: none; }
 						visibility: visible;
 						-webkit-transform: scaleX(1);
 						-moz-transform: scaleX(1);

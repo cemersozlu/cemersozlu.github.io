@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "604AF97D-F284-4CB0-8DF9-0FDB685686E1"
+		"uuidString": "0799D7F9-9D7A-490D-A217-F67ABF953EFB"
 		}
 	],
 "creatorBuild": "25479",
@@ -20,7 +20,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/animate-min.css",
 		"oF": 0,
 		"oS": 0
@@ -30,7 +30,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/bootstrap-min.css",
 		"oF": 0,
 		"oS": 0
@@ -46,7 +46,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/icomoon-min.css",
 		"oF": 0,
 		"oS": 0
@@ -56,7 +56,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/owl.carousel.min-min.css",
 		"oF": 0,
 		"oS": 0
@@ -66,7 +66,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/owl.theme.default.min-min.css",
 		"oF": 0,
 		"oS": 0
@@ -76,7 +76,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
@@ -173,7 +173,7 @@
 		"oA": 0,
 		"oAP": "\/id\/arsamiea\/apron.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/arsamiea\/apron2.jpg": {
 		"ft": 16384,
@@ -189,7 +189,7 @@
 		"oA": 0,
 		"oAP": "\/id\/arsamiea\/bag.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/arsamiea\/cover.jpg": {
 		"ft": 16384,
@@ -219,7 +219,7 @@
 		"oA": 0,
 		"oAP": "\/id\/arsamiea\/pack.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/arsamiea\/tray.jpg": {
 		"ft": 16384,
@@ -227,7 +227,7 @@
 		"oA": 0,
 		"oAP": "\/id\/arsamiea\/tray.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/arsamiea\/van.jpg": {
 		"ft": 16384,
@@ -235,7 +235,7 @@
 		"oA": 0,
 		"oAP": "\/id\/arsamiea\/van.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/atv\/bc.jpg": {
 		"ft": 16384,
@@ -333,7 +333,7 @@
 		"oA": 0,
 		"oAP": "\/id\/bbg\/island.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/bbg\/island2.jpg": {
 		"ft": 16384,
@@ -341,7 +341,7 @@
 		"oA": 0,
 		"oAP": "\/id\/bbg\/island2.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/bbg\/logo-exp1.jpg": {
 		"ft": 16384,
@@ -349,7 +349,7 @@
 		"oA": 0,
 		"oAP": "\/id\/bbg\/logo-exp1.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/bbg\/logo-exp2.jpg": {
 		"ft": 16384,
@@ -365,7 +365,7 @@
 		"oA": 0,
 		"oAP": "\/id\/bbg\/logo.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/bbg\/web.jpg": {
 		"ft": 16384,
@@ -381,7 +381,7 @@
 		"oA": 0,
 		"oAP": "\/id\/data-department\/001.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/data-department\/002.jpg": {
 		"ft": 16384,
@@ -389,7 +389,7 @@
 		"oA": 0,
 		"oAP": "\/id\/data-department\/002.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/data-department\/cover.jpg": {
 		"ft": 16384,
@@ -419,7 +419,7 @@
 		"oA": 0,
 		"oAP": "\/id\/diginity\/grid.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/diginity\/index.html": {
 		"ft": 8192,
@@ -441,7 +441,7 @@
 		"oA": 0,
 		"oAP": "\/id\/diginity\/magad.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/diginity\/pattern.jpg": {
 		"ft": 16384,
@@ -473,7 +473,7 @@
 		"oA": 0,
 		"oAP": "\/id\/diginity\/products2.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/diginity\/services.jpg": {
 		"ft": 16384,
@@ -497,7 +497,7 @@
 		"oA": 0,
 		"oAP": "\/id\/diginity\/stationary.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/diginity\/tasktrack.jpg": {
 		"ft": 16384,
@@ -519,7 +519,7 @@
 		"oA": 0,
 		"oAP": "\/id\/ita\/001.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/ita\/002.jpg": {
 		"ft": 16384,
@@ -527,7 +527,7 @@
 		"oA": 0,
 		"oAP": "\/id\/ita\/002.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/ita\/003.jpg": {
 		"ft": 16384,
@@ -597,7 +597,7 @@
 		"oA": 0,
 		"oAP": "\/id\/mekhann\/h1.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/mekhann\/h2.jpg": {
 		"ft": 16384,
@@ -635,7 +635,7 @@
 		"oA": 0,
 		"oAP": "\/id\/mekhann\/pattern.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/movela\/bc.jpg": {
 		"ft": 16384,
@@ -667,7 +667,7 @@
 		"oA": 0,
 		"oAP": "\/id\/movela\/billboard2.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/movela\/busstop.jpg": {
 		"ft": 16384,
@@ -699,7 +699,7 @@
 		"oA": 0,
 		"oAP": "\/id\/movela\/exp1.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/movela\/exp2.jpg": {
 		"ft": 16384,
@@ -707,7 +707,7 @@
 		"oA": 0,
 		"oAP": "\/id\/movela\/exp2.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/movela\/expall.jpg": {
 		"ft": 16384,
@@ -715,7 +715,7 @@
 		"oA": 0,
 		"oAP": "\/id\/movela\/expall.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/movela\/expsystem.jpg": {
 		"ft": 16384,
@@ -731,7 +731,7 @@
 		"oA": 0,
 		"oAP": "\/id\/movela\/grid.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/movela\/index.html": {
 		"ft": 8192,
@@ -753,7 +753,7 @@
 		"oA": 0,
 		"oAP": "\/id\/movela\/magad.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/movela\/tags.jpg": {
 		"ft": 16384,
@@ -815,7 +815,7 @@
 		"oA": 0,
 		"oAP": "\/id\/nightbits\/z2.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/nightbits\/z3.jpg": {
 		"ft": 16384,
@@ -823,7 +823,7 @@
 		"oA": 0,
 		"oAP": "\/id\/nightbits\/z3.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/nightbits\/zeppelin.jpg": {
 		"ft": 16384,
@@ -923,7 +923,7 @@
 		"oA": 0,
 		"oAP": "\/id\/praxapp\/pattern.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/praxapp\/pixel-icons.jpg": {
 		"ft": 16384,
@@ -977,7 +977,7 @@
 		"oA": 0,
 		"oAP": "\/id\/sultans-kitchen\/logo.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/sultans-kitchen\/prop.jpg": {
 		"ft": 16384,
@@ -985,7 +985,7 @@
 		"oA": 0,
 		"oAP": "\/id\/sultans-kitchen\/prop.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/sultans-kitchen\/stationary.jpg": {
 		"ft": 16384,
@@ -1009,7 +1009,7 @@
 		"oA": 0,
 		"oAP": "\/id\/topair\/001.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/topair\/002.jpg": {
 		"ft": 16384,
@@ -1025,7 +1025,7 @@
 		"oA": 0,
 		"oAP": "\/id\/topair\/003.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/topair\/004.jpg": {
 		"ft": 16384,
@@ -1033,7 +1033,7 @@
 		"oA": 0,
 		"oAP": "\/id\/topair\/004.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/id\/topair\/cover.jpg": {
 		"ft": 16384,
@@ -1106,7 +1106,7 @@
 	"\/js\/bootstrap.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/bootstrap.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1115,7 +1115,7 @@
 	"\/js\/google_map.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/google_map-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1124,7 +1124,7 @@
 	"\/js\/jquery.countTo.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/jquery.countTo-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1133,7 +1133,7 @@
 	"\/js\/jquery.easing.1.3.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/jquery.easing.1.3-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1142,7 +1142,7 @@
 	"\/js\/jquery.magnific-popup.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/jquery.magnific-popup.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1151,7 +1151,7 @@
 	"\/js\/jquery.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/jquery.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1160,7 +1160,7 @@
 	"\/js\/jquery.stellar.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/jquery.stellar.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1169,7 +1169,7 @@
 	"\/js\/jquery.waypoints.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/jquery.waypoints.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1178,7 +1178,7 @@
 	"\/js\/main.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/main-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1187,7 +1187,7 @@
 	"\/js\/modernizr-2.6.2.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/modernizr-2.6.2.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1196,7 +1196,7 @@
 	"\/js\/owl.carousel.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/owl.carousel.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1205,7 +1205,7 @@
 	"\/js\/respond.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/respond.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1218,9 +1218,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/_bootstrap-compass.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1231,9 +1231,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/_bootstrap-mincer.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1244,9 +1244,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/_bootstrap-sprockets.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1259,7 +1259,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/bootstrap.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1270,9 +1270,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_alerts.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1283,9 +1283,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_badges.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1296,9 +1296,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_breadcrumbs.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1309,9 +1309,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_button-groups.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1322,9 +1322,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_buttons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1335,9 +1335,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_carousel.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1348,9 +1348,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_close.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1361,9 +1361,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_code.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1374,9 +1374,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_component-animations.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1387,9 +1387,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_dropdowns.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1400,9 +1400,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_forms.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1413,9 +1413,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_glyphicons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1426,9 +1426,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_grid.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1439,9 +1439,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_input-groups.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1452,9 +1452,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_jumbotron.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1465,9 +1465,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_labels.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1478,9 +1478,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_list-group.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1491,9 +1491,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_media.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1504,9 +1504,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_mixins.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1517,9 +1517,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_modals.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1530,9 +1530,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_navbar.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1543,9 +1543,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_navs.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1556,9 +1556,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_normalize.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1569,9 +1569,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_pager.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1582,9 +1582,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_pagination.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1595,9 +1595,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_panels.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1608,9 +1608,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_popovers.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1621,9 +1621,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_print.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1634,9 +1634,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_progress-bars.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1647,9 +1647,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_responsive-embed.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1660,9 +1660,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_responsive-utilities.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1673,9 +1673,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_scaffolding.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1686,9 +1686,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_tables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1699,9 +1699,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_theme.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1712,9 +1712,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_thumbnails.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1725,9 +1725,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_tooltip.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1738,9 +1738,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_type.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1751,9 +1751,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_utilities.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1764,9 +1764,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_variables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1777,9 +1777,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/_wells.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1790,9 +1790,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_alerts.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1803,9 +1803,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_background-variant.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1816,9 +1816,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_border-radius.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1829,9 +1829,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_buttons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1842,9 +1842,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_center-block.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1855,9 +1855,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_clearfix.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1868,9 +1868,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_forms.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1881,9 +1881,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_gradients.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1894,9 +1894,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_grid-framework.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1907,9 +1907,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_grid.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1920,9 +1920,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_hide-text.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1933,9 +1933,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_image.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1946,9 +1946,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_labels.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1959,9 +1959,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_list-group.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1972,9 +1972,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_nav-divider.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1985,9 +1985,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_nav-vertical-align.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1998,9 +1998,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_opacity.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2011,9 +2011,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_pagination.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2024,9 +2024,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_panels.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2037,9 +2037,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_progress-bar.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2050,9 +2050,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_reset-filter.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2063,9 +2063,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_reset-text.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2076,9 +2076,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_resize.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2089,9 +2089,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_responsive-visibility.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2102,9 +2102,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_size.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2115,9 +2115,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_tab-focus.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2128,9 +2128,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_table-row.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2141,9 +2141,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_text-emphasis.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2154,9 +2154,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_text-overflow.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2167,9 +2167,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/bootstrap\/css\/_vendor-prefixes.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2182,17 +2182,17 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/style.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/ux\/e-kolay\/cover.jpg": {
 		"ft": 16384,
-		"iS": 94934,
+		"iS": 96483,
 		"oA": 0,
 		"oAP": "\/ux\/e-kolay\/cover.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/e-kolay\/drafts.jpg": {
 		"ft": 16384,
@@ -2208,7 +2208,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/e-kolay\/hero.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/e-kolay\/index.html": {
 		"ft": 8192,
@@ -2222,7 +2222,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/e-kolay\/timelines.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/e-kolay\/ui.jpg": {
 		"ft": 16384,
@@ -2260,7 +2260,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/istanbul2010\/cover.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/istanbul2010\/draft.jpg": {
 		"ft": 16384,
@@ -2284,7 +2284,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/istanbul2010\/eventPopup.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/istanbul2010\/hero.jpg": {
 		"ft": 16384,
@@ -2292,7 +2292,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/istanbul2010\/hero.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/istanbul2010\/index.html": {
 		"ft": 8192,
@@ -2306,7 +2306,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/istanbul2010\/ui.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/karnaval\/cover.jpg": {
 		"ft": 16384,
@@ -2314,7 +2314,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/karnaval\/cover.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/karnaval\/desktop.jpg": {
 		"ft": 16384,
@@ -2322,7 +2322,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/karnaval\/desktop.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/karnaval\/draft.jpg": {
 		"ft": 16384,
@@ -2338,7 +2338,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/karnaval\/event.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/karnaval\/index.html": {
 		"ft": 8192,
@@ -2352,7 +2352,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/karnaval\/tweet.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/karnaval\/ui.jpg": {
 		"ft": 16384,
@@ -2368,7 +2368,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/nightbits\/cover.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/nightbits\/icons.jpg": {
 		"ft": 16384,
@@ -2390,7 +2390,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/nightbits\/ui.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/nightbits\/web.jpg": {
 		"ft": 16384,
@@ -2422,7 +2422,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/qbee\/closeup.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/qbee\/cover.jpg": {
 		"ft": 16384,
@@ -2430,7 +2430,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/qbee\/cover.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/qbee\/flow1.jpg": {
 		"ft": 16384,
@@ -2454,7 +2454,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/qbee\/iconset.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/qbee\/index.html": {
 		"ft": 8192,
@@ -2508,7 +2508,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/santralistanbul\/cover.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/santralistanbul\/drafts.jpg": {
 		"ft": 16384,
@@ -2570,7 +2570,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/santralistanbul\/ui.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/santralistanbul\/ui1.jpg": {
 		"ft": 16384,
@@ -2602,7 +2602,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/smart-heating\/cover.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/smart-heating\/iconset.jpg": {
 		"ft": 16384,
@@ -2610,7 +2610,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/smart-heating\/iconset.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/smart-heating\/index.html": {
 		"ft": 8192,
@@ -2640,7 +2640,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/smart-heating\/mains.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/smart-heating\/settings.jpg": {
 		"ft": 16384,
@@ -2648,7 +2648,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/smart-heating\/settings.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/smart-heating\/smartconfig.jpg": {
 		"ft": 16384,
@@ -2672,7 +2672,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/super-marketim\/cover.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/super-marketim\/desktop.jpg": {
 		"ft": 16384,
@@ -2680,7 +2680,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/super-marketim\/desktop.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/super-marketim\/icons.jpg": {
 		"ft": 16384,
@@ -2704,7 +2704,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/super-marketim\/iconset.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/super-marketim\/index.html": {
 		"ft": 8192,
@@ -2726,7 +2726,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/super-marketim\/phone.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/ux\/super-marketim\/tablet.jpg": {
 		"ft": 16384,
@@ -2734,7 +2734,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/super-marketim\/tablet.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		}
 	},
 "hooks": [
@@ -2743,9 +2743,9 @@
 	},
 "projectAttributes": {
 	"creationDate": 500339770,
-	"displayValue": "blend custom",
+	"displayValue": "cemersozlu.github.io",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron"
+	"iconImageName": "meme-angryPicard"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

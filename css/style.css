@@ -72,19 +72,51 @@ figure {
   height: 100px;
   width: 1px; }
 
-.projectText {
+.projectDescription {
   font-size: 16px;
-  font-weight: 300; }
+  font-weight: 300;
+  position: relative;
+  float: left; }
   @media screen and (max-width: 768px) {
-    .projectText {
+    .projectDescription {
       font-size: 14px; } }
+  .projectDescription b {
+    font-weight: 400;
+    color: black; }
+
+.projectType {
+  position: relative;
+  margin-bottom: 10px; }
 
 .projectTitle {
-  font-weight: 400;
+  font-weight: 100;
   color: black; }
 
 .projectYear {
   font-weight: 400;
+  color: rgba(0, 0, 0, 0.3); }
+
+.ux-project, .id-project, .projectYear {
+  position: relative;
+  float: left;
+  padding: 0px 7px;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px; }
+
+.id-project {
+  border-color: #ff9800;
+  color: #ff9800; }
+
+.ux-project {
+  border-color: #03A9F4;
+  color: #03A9F4; }
+
+.projectYear {
+  border-color: rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.3); }
 
 #fh5co-page {
@@ -199,9 +231,6 @@ figure {
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
             transform: scaleX(1); }
-            @media screen and (max-width: 768px) {
-              #fh5co-aside #fh5co-main-menu ul li a.-selected:after {
-                display: none; } }
           #fh5co-aside #fh5co-main-menu ul li a:after {
             content: "";
             position: absolute;
