@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/about\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about\/index.html",
+		"oF": 0
+		},
 	"\/css\/animate.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1042,6 +1048,54 @@
 		"oA": 2,
 		"oAP": "\/id\/topair\/index.html",
 		"oF": 0
+		},
+	"\/images\/portrait.png": {
+		"ft": 32768,
+		"iS": 97748,
+		"oA": 0,
+		"oAP": "\/images\/portrait.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/portraitSmall.png": {
+		"ft": 32768,
+		"iS": 27232,
+		"oA": 0,
+		"oAP": "\/images\/portraitSmall.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/unused\/id\/seven-gates.jpg": {
+		"ft": 16384,
+		"iS": 37436,
+		"oA": 0,
+		"oAP": "\/images\/unused\/id\/seven-gates.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/unused\/id\/youstartup.jpg": {
+		"ft": 16384,
+		"iS": 35063,
+		"oA": 0,
+		"oAP": "\/images\/unused\/id\/youstartup.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/unused\/ux\/fox.jpg": {
+		"ft": 16384,
+		"iS": 76731,
+		"oA": 0,
+		"oAP": "\/images\/unused\/ux\/fox.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/unused\/ux\/praxapp.jpg": {
+		"ft": 16384,
+		"iS": 15252,
+		"oA": 0,
+		"oAP": "\/images\/unused\/ux\/praxapp.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
