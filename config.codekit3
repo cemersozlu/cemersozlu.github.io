@@ -321,6 +321,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/id\/bbg\/ghost.png": {
+		"ft": 32768,
+		"iS": 2251,
+		"oA": 0,
+		"oAP": "\/id\/bbg\/ghost.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/id\/bbg\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -405,11 +413,27 @@
 		"oAP": "\/id\/data-department\/index.html",
 		"oF": 0
 		},
+	"\/id\/diginity\/all-copy.jpg": {
+		"ft": 16384,
+		"iS": 164112,
+		"oA": 0,
+		"oAP": "\/id\/diginity\/all-copy.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/id\/diginity\/cover.jpg": {
 		"ft": 16384,
 		"iS": 33959,
 		"oA": 0,
 		"oAP": "\/id\/diginity\/cover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/diginity\/ghost.png": {
+		"ft": 32768,
+		"iS": 2251,
+		"oA": 0,
+		"oAP": "\/id\/diginity\/ghost.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -637,6 +661,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/id\/movela\/all.jpg": {
+		"ft": 16384,
+		"iS": 388637,
+		"oA": 0,
+		"oAP": "\/id\/movela\/all.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/id\/movela\/bc.jpg": {
 		"ft": 16384,
 		"iS": 41729,
@@ -752,6 +784,14 @@
 		"iS": 82506,
 		"oA": 0,
 		"oAP": "\/id\/movela\/magad.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/movela\/messe.jpg": {
+		"ft": 16384,
+		"iS": 180390,
+		"oA": 0,
+		"oAP": "\/id\/movela\/messe.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -931,7 +971,7 @@
 		"oA": 0,
 		"oAP": "\/id\/praxapp\/pixel-icons.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/id\/praxapp\/ui.jpg": {
 		"ft": 16384,
@@ -1003,14 +1043,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/id\/topair\/001.jpg": {
-		"ft": 16384,
-		"iS": 14136,
-		"oA": 0,
-		"oAP": "\/id\/topair\/001.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/id\/topair\/002.jpg": {
 		"ft": 16384,
 		"iS": 91720,
@@ -1035,6 +1067,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/id\/topair\/bc.jpg": {
+		"ft": 16384,
+		"iS": 89315,
+		"oA": 0,
+		"oAP": "\/id\/topair\/bc.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/id\/topair\/cover.jpg": {
 		"ft": 16384,
 		"iS": 35138,
@@ -1048,6 +1088,38 @@
 		"oA": 2,
 		"oAP": "\/id\/topair\/index.html",
 		"oF": 0
+		},
+	"\/id\/topair\/logo.jpg": {
+		"ft": 16384,
+		"iS": 14136,
+		"oA": 0,
+		"oAP": "\/id\/topair\/logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/topair\/magad.jpg": {
+		"ft": 16384,
+		"iS": 94640,
+		"oA": 0,
+		"oAP": "\/id\/topair\/magad.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/topair\/stationary.jpg": {
+		"ft": 16384,
+		"iS": 66415,
+		"oA": 0,
+		"oAP": "\/id\/topair\/stationary.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/topair\/web.jpg": {
+		"ft": 16384,
+		"iS": 93604,
+		"oA": 0,
+		"oAP": "\/id\/topair\/web.jpg",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/images\/portrait.png": {
 		"ft": 32768,
