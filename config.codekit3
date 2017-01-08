@@ -591,6 +591,68 @@
 		"oAP": "\/id\/ita\/index.html",
 		"oF": 0
 		},
+	"\/id\/lojiplatform\/cover.jpg": {
+		"ft": 16384,
+		"iS": 11052,
+		"oA": 0,
+		"oAP": "\/id\/lojiplatform\/cover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/lojiplatform\/hero.jpg": {
+		"ft": 16384,
+		"iS": 88506,
+		"oA": 0,
+		"oAP": "\/id\/lojiplatform\/hero.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/id\/lojiplatform\/icons.jpg": {
+		"ft": 16384,
+		"iS": 29821,
+		"oA": 0,
+		"oAP": "\/id\/lojiplatform\/icons.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/lojiplatform\/iconset1.jpg": {
+		"ft": 16384,
+		"iS": 61836,
+		"oA": 0,
+		"oAP": "\/id\/lojiplatform\/iconset1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/lojiplatform\/iconset2.jpg": {
+		"ft": 16384,
+		"iS": 48736,
+		"oA": 0,
+		"oAP": "\/id\/lojiplatform\/iconset2.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/id\/lojiplatform\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/id\/lojiplatform\/index.html",
+		"oF": 0
+		},
+	"\/id\/lojiplatform\/logo.jpg": {
+		"ft": 16384,
+		"iS": 27035,
+		"oA": 0,
+		"oAP": "\/id\/lojiplatform\/logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/lojiplatform\/web.jpg": {
+		"ft": 16384,
+		"iS": 49879,
+		"oA": 0,
+		"oAP": "\/id\/lojiplatform\/web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/id\/mekhann\/cover.jpg": {
 		"ft": 16384,
 		"iS": 32827,
@@ -2790,7 +2852,7 @@
 		"oA": 0,
 		"oAP": "\/ux\/super-marketim\/logo.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/ux\/super-marketim\/phone.jpg": {
 		"ft": 16384,
