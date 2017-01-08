@@ -333,8 +333,7 @@ figure {
       #fh5co-main .-about {
         height: auto; } }
   #fh5co-main .-ux .gallery-item {
-    width: 100%;
-    max-height: 675px; }
+    width: 100%; }
     @media screen and (max-width: 1200px) {
       #fh5co-main .-ux .gallery-item {
         width: 100%; } }
