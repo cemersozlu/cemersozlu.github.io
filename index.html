@@ -110,6 +110,14 @@
 					</span>
 					<span class="bg" style="background-color:#aaacb1;"></span>
 				</a>
+				<a class="gallery-item" href="id/themarmara/index.html">
+					<img src="id/themarmara/cover.jpg" alt="The Marmara Collection Taksim" style="visibility: hidden;">
+					<!-- <img src="id/themarmara/ghost.png" alt="The Marmara Collection Taksim"> -->
+					<span class="overlay" style="background:url(id/themarmara/cover.jpg) center center no-repeat; background-size: cover;">
+						<h2>The Marmara Taksim</h2>
+					</span>
+					<span class="bg" style="background-color:#e3e5e4;"></span>
+				</a>
 				<a class="gallery-item" href="ux/karnaval/index.html">
 					<img src="ux/karnaval/cover.jpg" alt="karnaval.com">
 					<span class="overlay">
@@ -321,13 +329,13 @@
 	<script src="/js/main.js"></script>
 
 	<script type='text/javascript'>//<![CDATA[
-		$(window).load(function(){
-			$('a').click(function(){
-			    $('html, body').animate({
-			        scrollTop: $( $(this).attr('href') ).offset().top
-			    }, 500);
-			    return false;
-			});
+		// $(window).load(function(){
+		// 	$('a').click(function(){
+		// 	    $('html, body').animate({
+		// 	        scrollTop: $( $(this).attr('href') ).offset().top
+		// 	    }, 500);
+		// 	    return false;
+		// 	});
 			// $(function() {
 			//   var loc = window.location.href; // returns the full URL
 			//   if(/index.html/.test(loc)) {
@@ -354,35 +362,35 @@
 			// });
 
 
-			var one = $(".-uxMarker").offset();
-			var two = $(".-idMarker").offset();
-			var three = $(".-aboutMarker").offset();
+			// var one = $(".-uxMarker").offset();
+			// var two = $(".-idMarker").offset();
+			// var three = $(".-aboutMarker").offset();
 
-			$(document).ready(function() {
-			    $(window).scroll(function(){
-			        var screenPosition = $(document).scrollTop();
-			        if (screenPosition < two.top) {
-			            $( ".link" ).removeClass( "-selected" );
-			            $( ".-navux" ).addClass('-selected');
-			        }
-			        if (screenPosition >= two.top) {
-			            $( ".link" ).removeClass( "-selected" );
-			            $( ".-navid" ).addClass('-selected');
-			        }
-			        if (screenPosition >= three.top) {
-			            $( ".link" ).removeClass( "-selected" );
-			            $( ".-navabout" ).addClass('-selected');
-			        }
-			    });
-
-
-			    //call the scroll() event so that the proper one is highlighted at the start
-			    $(window).scroll();
-			    $(".one, .two, .three").click(function() {$(window).scroll();});
-			});
+			// $(document).ready(function() {
+			//     $(window).scroll(function(){
+			//         var screenPosition = $(document).scrollTop();
+			//         if (screenPosition < two.top) {
+			//             $( ".link" ).removeClass( "-selected" );
+			//             $( ".-navux" ).addClass('-selected');
+			//         }
+			//         if (screenPosition >= two.top) {
+			//             $( ".link" ).removeClass( "-selected" );
+			//             $( ".-navid" ).addClass('-selected');
+			//         }
+			//         if (screenPosition >= three.top) {
+			//             $( ".link" ).removeClass( "-selected" );
+			//             $( ".-navabout" ).addClass('-selected');
+			//         }
+			//     });
 
 
-		});
+			//     //call the scroll() event so that the proper one is highlighted at the start
+			//     $(window).scroll();
+			//     $(".one, .two, .three").click(function() {$(window).scroll();});
+			// });
+
+
+		// });
 
 
 	</script>

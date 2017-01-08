@@ -321,14 +321,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/id\/bbg\/ghost.png": {
-		"ft": 32768,
-		"iS": 2251,
-		"oA": 0,
-		"oAP": "\/id\/bbg\/ghost.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/id\/bbg\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -426,14 +418,6 @@
 		"iS": 33959,
 		"oA": 0,
 		"oAP": "\/id\/diginity\/cover.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/id\/diginity\/ghost.png": {
-		"ft": 32768,
-		"iS": 2251,
-		"oA": 0,
-		"oAP": "\/id\/diginity\/ghost.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1102,6 +1086,84 @@
 		"iS": 94469,
 		"oA": 0,
 		"oAP": "\/id\/sultans-kitchen\/window.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/themarmara\/cover.jpg": {
+		"ft": 16384,
+		"iS": 67088,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/cover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/themarmara\/ghost.png": {
+		"ft": 32768,
+		"iS": 2251,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/ghost.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/id\/themarmara\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/id\/themarmara\/index.html",
+		"oF": 0
+		},
+	"\/id\/themarmara\/pattern1.jpg": {
+		"ft": 16384,
+		"iS": 29956,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/pattern1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/themarmara\/pattern1a.jpg": {
+		"ft": 16384,
+		"iS": 164711,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/pattern1a.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/themarmara\/pattern1b.jpg": {
+		"ft": 16384,
+		"iS": 94763,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/pattern1b.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/themarmara\/pattern1c.jpg": {
+		"ft": 16384,
+		"iS": 124945,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/pattern1c.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/themarmara\/pattern2.jpg": {
+		"ft": 16384,
+		"iS": 76340,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/pattern2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/themarmara\/pattern2a.jpg": {
+		"ft": 16384,
+		"iS": 394470,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/pattern2a.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/themarmara\/pattern2b.jpg": {
+		"ft": 16384,
+		"iS": 355093,
+		"oA": 0,
+		"oAP": "\/id\/themarmara\/pattern2b.jpg",
 		"oF": 0,
 		"opt": 0
 		},
