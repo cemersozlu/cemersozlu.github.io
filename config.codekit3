@@ -15,6 +15,12 @@
 		"oAP": "\/about\/index.html",
 		"oF": 0
 		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/css\/animate.css": {
 		"aP": 0,
 		"bl": 0,
@@ -321,6 +327,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/id\/bbg\/ghost.png": {
+		"ft": 32768,
+		"iS": 3535,
+		"oA": 0,
+		"oAP": "\/id\/bbg\/ghost.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/id\/bbg\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -418,6 +432,14 @@
 		"iS": 33959,
 		"oA": 0,
 		"oAP": "\/id\/diginity\/cover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/id\/diginity\/ghost.png": {
+		"ft": 32768,
+		"iS": 3535,
+		"oA": 0,
+		"oAP": "\/id\/diginity\/ghost.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2381,6 +2403,12 @@
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/sitemap.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sitemap.xml",
+		"oF": 0
 		},
 	"\/ux\/e-kolay\/cover.jpg": {
 		"ft": 16384,
