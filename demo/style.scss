@@ -1,0 +1,142 @@
+// Variables for easy customization
+$slider-width: 100%;
+$slider-max-width: 100%;
+// $slider-height: 800px;
+$animation-duration: 16s; // Total duration for all slides
+$number-of-slides: 4; // Change this variable to dynamically update the animation
+$visible-percentage: 100% / $number-of-slides; // Automatically calculated percentage of each slide
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+header{
+    height:8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 280px;
+    }
+}
+.slider {
+  position: relative;
+  width: $slider-width;
+  max-width: $slider-max-width;
+//   height: $slider-height;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+
+  .slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      animation: fadeAnimation $animation-duration infinite;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      // Assign different animation delays to each slide dynamically
+      @for $i from 1 through $number-of-slides {
+        &:nth-child(#{$i}) {
+          animation-delay: #{($i - 1) * ($animation-duration / $number-of-slides)};
+        }
+      }
+    }
+  }
+
+  // Style the line indicators
+  .indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+
+    .indicator {
+      position: relative;
+      width: 100px;
+      height: 2px;
+      background-color: rgba(255, 255, 255, 0.2);
+      overflow: hidden;
+
+      .line {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+
+        // No animation by default
+        transition: width 0.3s ease;
+      }
+
+      // Apply fill animation to the currently active indicator's line
+      &:nth-child(1) .line {
+        animation: fillLine $animation-duration infinite;
+      }
+
+      @for $i from 2 through $number-of-slides {
+        &:nth-child(#{$i}) .line {
+          animation: fillLine $animation-duration infinite;
+          animation-delay: #{($i - 1) * ($animation-duration / $number-of-slides)};
+        }
+      }
+    }
+  }
+}
+
+// Keyframes for fading animation of slides
+@keyframes fadeAnimation {
+  0% { opacity: 0; }
+  #{$visible-percentage / 2} { opacity: 1; }  // Fade in
+  #{$visible-percentage} { opacity: 1; }      // Stay visible
+  #{($visible-percentage + ($visible-percentage / 2))} { opacity: 0; } // Fade out
+  100% { opacity: 0; }
+}
+
+// Keyframes for line filling animation
+@keyframes fillLine {
+  0% { width: 0; }
+  #{$visible-percentage / 2} { width: 0; }     // Start fill at halfway point of the first slide
+  #{$visible-percentage} { width: 100%; }      // Line fully fills when slide is fully visible
+  #{($visible-percentage + ($visible-percentage / 2))} { width: 100%; } // Line stays full for the rest of the slide
+  100% { width: 0; }                           // Line resets for the next slide
+}
+
+footer{
+  padding: 6rem;
+  ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    li{
+      color: rgba(0, 0, 0, 0.3)
+    }
+  }
+}
