@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.icon-unsplash:before {
+  content: "\e901";
+}
+.icon-x:before {
+  content: "\e902";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-behance:before {
+  content: "\eaa8";
+}
+.icon-deviantart:before {
+  content: "\eaaa";
+}
+
+
+
+$nav-font--size: 1.5rem;
+$nav--padding: 2.5rem;
+$accent--color: #00e2ff;
+
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: black;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: $nav--padding;
+    backdrop-filter: blur(3px);
+    background-color: rgba($color: white, $alpha: 0.7);
+    z-index: 101;
+    .title{
+        font-weight: 200;
+    }
+    a{
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+        font-size: $nav-font--size;
+        line-height: $nav-font--size;
+        &:after{
+            content:"";
+            position: absolute;
+            inset-inline: 0;
+            bottom: -#{$nav--padding};
+            height: 0;
+            background-color: transparent;
+            transition: all 0.5s ;
+        }
+        &[aria-current="page"]{
+            &:after{
+                height: 0.25rem;
+                background-color: $accent--color;
+            }
+        }
+    }
+}
+
+
+
+.visually-hidden{
+    position:absolute!important;
+    height:1px;
+    width:1px;
+    overflow:hidden;
+    clip:rect(1px,1px,1px,1px);
+    white-space:nowrap;
+
+}
+[hidden]{ display:none !important; }
+
+@media (prefers-reduced-motion: reduce){
+    .filter-nav a{ transition:none; }
+}
+
+.grid{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // display: grid;
+    // grid-template-columns: repeat(2, minmax(0, 1fr));
+    // gap: 0;
+    // grid-auto-flow: dense; /* backfill holes */
+    .card{
+        position: relative;
+        padding: $nav--padding;
+        height: 50dvh;
+        float: left;
+        background-color: lightgray;
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+        &.hero{
+            height: 75dvh;
+        }
+        .title{
+            font-size: 1.75rem;
+            font-weight: 200;
+            padding-block-end: 1.5rem;
+        }
+        a{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            padding: $nav--padding;
+        }
+    }
+}
+
+// .grid > * { grid-column: span 1; }
+
+// /* items that are inherently full-width, if you have any */
+// .grid > *[data-span="full"] { grid-column: 1 / -1; }
+
+// /* JS will toggle this when a row has a single half item */
+// .grid > *.is-auto-full { grid-column: 1 / -1; }
+
+// .card[data-span="half"] { grid-column: span 1; }
+// .card[data-span="full"] { grid-column: 1 / -1; }
+
+.cell--100{
+    min-width: 100%;
+}
+.cell--50{
+    min-width: 50%;
+    flex-grow: 2;
+}
+.cell--25{
+    min-width: 25%;
+    flex-grow: 2;
+}
+
+$identifier__year--color: #555;
+$identifier__startup--color: #3f51b5;
+$identifier__product-uiux--color: #00e2ff;
+$identifier__product-branding--color: orange;
+$identifier__product-framework--color: #ff005c;
+$identifier__product-other--color: #e91e63;
+.identifier{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    p{
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 0.25rem;
+        padding: 0.15rem 0.35rem;
+        font-size: 0.85rem;
+    }
+    .product-uiux{
+        border-color: $identifier__product-uiux--color;
+        color: $identifier__product-uiux--color;
+    }
+    .product-branding{
+        border-color: $identifier__product-branding--color;
+        color: $identifier__product-branding--color;
+    }
+    .product-framework{
+        border-color: $identifier__product-framework--color;
+        color: $identifier__product-framework--color;
+    }
+    .product-other{
+        border-color: $identifier__product-other--color;
+        color: $identifier__product-other--color;
+    }
+    .year{
+        border-color: $identifier__year--color;
+        color: $identifier__year--color;
+    }
+    .startup{
+        border-color: $identifier__startup--color;
+        background-color: $identifier__startup--color;
+        color: white;
+    }
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: $nav--padding;
+    font-size: 1rem;
+    gap: 1rem;
+    color: gray;
+    a{
+        color: inherit;
+    }
+}
+$products: (
+    aerolite,
+    looq,
+    qbee,
+    super-marketim,
+    smart-heating,
+    themarmara,
+    karnaval,
+    istanbul2010,
+    santralistanbul,
+    e-kolay,
+    nightbits,
+);
+
+@mixin product($products) {
+  @each $name in $products {
+    .product__#{$name} {
+      background: url(../#{$name}/cover.jpg) center;
+      background-size: cover;
+    }
+  }
+}
+@include product($products);

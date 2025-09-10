@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/icomoon-sm.css">
+    <title>Cem Ersözlü</title>
+    <style>
+    :root{
+        --dur: 230ms;
+        --ease: cubic-bezier(.2,.7,.2,1);
+    }
+    </style>
+    <script src="js/projects.js" defer></script>
+    <script src="js/filter2.js" defer></script>
+</head>
+<body>
+
+    <nav class="filter-nav" aria-label="Product categories">
+    <a href="?cat=all" data-cat="all" aria-current="page" class="title">Cem Ersozlu</a>
+    <a href="?cat=uiux" data-cat="uiux">UI/UX</a>
+    <a href="?cat=branding" data-cat="branding">Branding</a>
+    <a href="?cat=creative" data-cat="creative">Creative</a>
+    <a href="about.html">About</a>
+    </nav>
+
+    <p id="live" class="visually-hidden" aria-live="polite"></p>
+
+    <!-- <main class="grid" id="portfolio"></main> -->
+
+    <section class="grid" id="productGrid"></section>
+
+    <!-- <section class="grid" id="productGrid">
+
+        <article class="card hero cell--100" data-categories="uiux">
+            <h2 class="title">SASS Theme Framework</h2>
+            <div class="identifier">
+                <p class="year">2025</p>
+                <p class="type product-uiux">UI/UX</p>
+                <p class="type product-framework">Framework</p>
+            </div>
+        </article>
+
+        <article class="card cell--100" data-categories="uiux">
+            <h2 class="title">Theming Tool</h2>
+            <div class="identifier">
+                <p class="year">2025</p>
+                <p class="type product-uiux">UI/UX</p>
+                <p class="type product-framework">Framework</p>
+            </div>
+        </article>
+
+        <article class="card cell--100 product__aerolite" data-categories="creative">
+            <h2 class="title">aerolite</h2>
+            <div class="identifier">
+                <p class="year">2020</p>
+                <p class="type product-other">Typeface</p>
+            </div>
+        </article>
+
+        <article class="card cell--50" data-categories="branding">
+            <h2 class="title">Sima Acan</h2>        
+            <div class="identifier">
+                <p class="year">2025</p>
+                <p class="type product-branding">Branding</p>
+            </div>
+        </article>
+
+        <article class="card cell--50" data-categories="uiux, branding">
+            <h2 class="title">traweller</h2>        
+            <div class="identifier">
+                <p class="year">2021</p>
+                <p class="type product-uiux">UI/UX</p>
+                <p class="type product-branding">Branding</p>
+                <p class="startup">Startup</p>
+            </div>
+        </article>
+
+        <article class="card cell--50 product__looq" data-categories="uiux, branding">
+            <h2 class="title">looq</h2>        
+            <div class="identifier">
+                <p class="year">2019</p>
+                <p class="type product-uiux">UI/UX</p>
+                <p class="type product-branding">Branding</p>
+                <p class="startup">Startup</p>
+            </div>
+        </article>
+
+        <article class="card cell--50 product__qbee" data-categories="uiux, branding">
+            <h2 class="title">qbee</h2>        
+            <div class="identifier">
+                <p class="year">2016</p>
+                <p class="type product-uiux">UI/UX</p>
+                <p class="type product-branding">Branding</p>
+                <p class="startup">Startup</p>
+            </div>
+        </article>
+
+        <article class="card cell--50 product__super-marketim" data-categories="uiux, branding">
+            <h2 class="title">super-marketim</h2>        
+            <div class="identifier">
+                <p class="year">2015</p>
+                <p class="type product-uiux">UI/UX</p>
+                <p class="type product-branding">Branding</p>
+                <p class="startup">Startup</p>
+            </div>
+        </article>
+
+        <article class="card cell--50 product__smart-heating" data-categories="uiux">
+            <h2 class="title">smart heating</h2>        
+            <div class="identifier">
+                <p class="year">2013</p>
+                <p class="type product-uiux">UI/UX</p>
+            </div>
+        </article>
+
+        <article class="card cell--100 product__themarmara" data-categories="creative">
+            <h2 class="title">The Marmara Taksim</h2>        
+            <div class="identifier">
+                <p class="year">2013</p>
+                <p class="type product-other">Interior Design</p>
+            </div>
+        </article>
+
+        <article class="card cell--100 product__karnaval" data-categories="uiux">
+            <h2 class="title">karnaval.com</h2>        
+            <div class="identifier">
+                <p class="year">2012</p>
+                <p class="type product-uiux">UI/UX</p>
+            </div>
+        </article>
+
+        <article class="card cell--100 product__istanbul2010" data-categories="uiux">
+            <h2 class="title">istanbul 2010</h2>        
+            <div class="identifier">
+                <p class="year">2010</p>
+                <p class="type product-uiux">UI/UX</p>
+            </div>
+        </article>
+
+        <article class="card cell--100 product__santralistanbul" data-categories="uiux">
+            <h2 class="title">santralistanbul</h2>        
+            <div class="identifier">
+                <p class="year">2009</p>
+                <p class="type product-uiux">UI/UX</p>
+            </div>
+        </article>
+
+        <article class="card cell--100 product__e-kolay" data-categories="uiux">
+            <h2 class="title">e-kolay</h2>        
+            <div class="identifier">
+                <p class="year">2008</p>
+                <p class="type product-uiux">UI/UX</p>
+            </div>
+        </article>
+
+        <article class="card cell--25 product__e-kolay" data-categories="branding">
+          <h2 class="title">e-kolay</h2>        
+          <div class="identifier">
+              <p class="year">2008</p>
+              <p class="type product-uiux">UI/UX</p>
+          </div>
+        </article>
+
+    </section> -->
+
+    <footer>
+        <p>2025</p>
+        <a href="mailto:cersozlu@gmail.com">cersozlu@gmail.com</a>
+        <a href="https://unsplash.com/@cemersozlu"><i class="iconsm-unsplash"></i></a>
+        <a href="https://www.instagram.com/cemersozlu/"><i class="iconsm-instagram"></i></a>
+        <a href="https://www.behance.net/cemersozlu/"><i class="iconsm-behance"></i></a>
+        <a href="https://www.linkedin.com/in/cemersozlu"><i class="iconsm-linkedin"></i></a>
+    </footer>
+
+    
+
+
+
+</body>
+</html>
