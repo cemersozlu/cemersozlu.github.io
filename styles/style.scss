@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+$nav-font--size: 1rem;
+$nav--padding: 2.5rem;
+$nav--padding-mobile: 1.5rem;
+$accent--color: #00e2ff;
+$body--color: #353535;
+$resolution--tablet: 1024px;
+$resolution--mobile: 500px;
+$project-title--size: 3.75rem;
+$project-title--size-mobile: 2.75rem;
+
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: $body--color;
+}
+h1, h2, h3, h4, p, figure, a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: $body--color;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: $nav--padding;
+    backdrop-filter: blur(3px);
+    background-color: rgba($color: #eeeeee, $alpha: 0.7);
+    z-index: 101;
+    @media screen and (max-width: $resolution--tablet) {
+        padding: $nav--padding-mobile;
+        justify-content: space-around;
+    }
+    .title{
+        font-weight: 400;
+        // @media screen and (max-width: $resolution--tablet) {
+        //     width: 100%;
+        // }
+        &.mobile{
+            display: none;
+            @media screen and (max-width: $resolution--mobile) {
+                display: block
+            }
+        }
+        &.desktop{
+            display: block;
+            @media screen and (max-width: $resolution--mobile) {
+                display: none;
+            }
+        }
+    }
+    a{
+        position: relative;
+        float: left;
+        font-size: $nav-font--size;
+        line-height: $nav-font--size;
+        @media screen and (max-width: $resolution--tablet) {
+            display: flex;
+            justify-content: center;
+            flex-grow: 2;
+        }
+        &:after{
+            content:"";
+            position: absolute;
+            inset-inline: 0;
+            inset-block-end: -#{$nav--padding};
+            height: 0;
+            background-color: transparent;
+            transition: all 0.5s ;
+            @media screen and (max-width: $resolution--tablet) {
+                inset-block-end:  -#{$nav--padding-mobile};
+            }
+        }
+        &[aria-current="page"]{
+            &:after{
+                height: 0.25rem;
+                background-color: $accent--color;
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: $nav--padding;
+    font-size: 0.85rem;
+    gap: 1rem;
+    color: $body--color;
+    @media screen and (max-width: $resolution--mobile) {
+        padding: $nav--padding-mobile;
+        justify-content: space-between;
+    }
+    a{
+        color: inherit;
+    }
+}
+
+
+.visually-hidden{
+    position:absolute!important;
+    height:1px;
+    width:1px;
+    overflow:hidden;
+    clip:rect(1px,1px,1px,1px);
+    white-space:nowrap;
+
+}
+[hidden]{ display:none !important; }
+
+@media (prefers-reduced-motion: reduce){
+    .filter-nav a{ transition:none; }
+}
+
+.grid{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card{
+        max-height: 50dvh;
+        // @media screen and (max-width: $resolution--tablet) {
+        //     height:50dvh;
+        // }
+        &__media{
+            max-height: 100%;
+            vertical-align: middle;
+        }
+    }
+    .card-simple{
+        aspect-ratio: 1 / 1;
+        background-size: contain;
+        @media screen and (max-width: $resolution--tablet) {
+            width: 50%;
+            height: 25dvh;
+            margin-block: 2rem;
+        }
+        @media screen and (max-width: $resolution--mobile) {
+            width: 100%;
+            height: 25dvh;
+            margin-block: 2rem;
+        }
+        .title, .type{
+            display: none;
+        }
+        &__media{
+            object-fit: contain;
+            max-width: 100%;
+            vertical-align: middle;
+            @media screen and (max-width: $resolution--tablet) {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .card, .card-simple{
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        .title{
+            font-size: 1.75rem;
+            font-weight: 300;
+            padding-block-end: 1rem;
+        }
+        &.hero{
+            height: 75dvh;
+        }
+        &__body{
+            position: absolute;
+            inset-inline-start: 0;
+            inset-block-start: 0;
+            padding: $nav--padding;
+            @media screen and (max-width: $resolution--tablet) {
+                padding: $nav--padding-mobile;
+            }
+        }
+
+    }
+    .project__info{
+        padding: $nav--padding;
+        padding-block-end: 4.5rem;
+        @media screen and (max-width: $resolution--tablet) {
+            padding: $nav--padding-mobile;
+            padding-block-end: 2.5rem;
+        }
+        &__title{
+            font-size: $project-title--size;
+            font-weight: 100;
+            padding-block-end: 0.5rem;
+            @media screen and (max-width: $resolution--tablet) {
+                font-size: $project-title--size-mobile;
+            }
+        }
+        &__description{
+            padding-block-start: 1rem;
+            font-size: 0.95rem;
+            width: 50%;
+            @media screen and (max-width: $resolution--tablet) {
+                width: 100%;
+            }
+        }
+    }
+
+}
+.about{
+    padding: $nav--padding;
+    padding-block-end: 4.5rem;
+    @media screen and (max-width: $resolution--tablet) {
+        padding: $nav--padding-mobile;
+    }
+    &__title{
+        font-size: $project-title--size;
+        font-weight: 100;
+        @media screen and (max-width: $resolution--tablet) {
+            font-size: $project-title--size-mobile;
+        }
+    }
+    &__avatar{
+        padding-block-end: 1rem;
+        @media screen and (max-width: $resolution--tablet) {
+            padding-block-end: 0;
+        }
+        img{
+            width: 12rem;
+            height: 12rem;
+            margin-inline-start: -1rem;
+        }
+    }
+    &__content{
+        flex-grow: unset !important;
+    }
+    .identifier{
+        padding-block-end: 1rem;
+        .role{
+            border: none;
+            white-space: nowrap;
+        }
+    }
+}
+
+.cell--100{
+    width: 100%;
+}
+.cell--50{
+    width: 50%;
+    flex-grow: 2;
+    @media screen and (max-width: $resolution--tablet) {
+        width: 100%;
+    }
+}
+.cell--25{
+    width: 25%;
+    // flex-grow: 2;
+}
+
+$identifier__year--color: #555;
+$identifier__startup--color: #3f51b5;
+$identifier__product-uiux--color: #00e2ff;
+$identifier__product-ai--color: #c0ff00;
+$identifier__product-branding--color: orange;
+$identifier__product-framework--color: #ff005c;
+$identifier__product-other--color: #e91e63;
+.identifier{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    @media screen and (max-width: $resolution--tablet) {
+        flex-wrap: wrap;
+        width: 1rem;
+    }
+    p{
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 0.25rem;
+        padding: 0.15rem 0.35rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+    .product-ui-ux{
+        // border-color: $identifier__product-uiux--color;
+        border-color: transparent;
+        color: $identifier__product-uiux--color;
+        background-color: rgba(0,0,0,0.9);
+    }
+    .product-branding{
+        // border-color: $identifier__product-branding--color;
+        border-color: transparent;
+        color: $identifier__product-branding--color;
+        background-color: rgba(0,0,0,0.9);
+    }
+    .product-framework{
+        border-color: $identifier__product-framework--color;
+        color: $identifier__product-framework--color;
+    }
+    .product-other{
+        // border-color: $identifier__product-other--color;
+        border-color: transparent;
+        color: $identifier__product-other--color;
+        background-color: rgba(0,0,0,0.9);
+    }
+    .product-ai{
+        // border-color: $identifier__product-other--color;
+        border-color: transparent;
+        color: $identifier__product-ai--color;
+        background-color: rgba(0,0,0,0.9);
+    }
+
+    .year{
+        border-color: $identifier__year--color;
+        color: $identifier__year--color;
+        background-color: rgba(255,255,255,0.9);
+    }
+    .product-startup{
+        border-color: $identifier__startup--color;
+        background-color: $identifier__startup--color;
+        color: white;
+    }
+}
+.card-simple{
+    .identifier{
+        p{
+            padding: 0.10rem 0.25rem;
+            font-size: 0.625rem;
+        }
+    }
+}
+
+.project__gallery{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-block-end: 8rem;
+
+    &-item{
+        width: 100%;
+        position: relative;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__caption{
+            width: 50%;
+            padding: 3rem 2rem 2rem 2rem;
+            font-size: 1.25rem;
+             @media screen and (max-width: $resolution--tablet) {
+                width: 100%;
+            }
+        }
+        img{
+            position: relative;
+            max-width: 100%;
+        }
+        &.cell--50{
+            width: 50%;
+            @media screen and (max-width: $resolution--tablet) {
+                width: 100%;
+            }
+        }
+    }
+}
+.card__sass-theming-framework{
+    height: 75dvh;
+    max-height: 75dvh !important;
+    align-items: center;
+    .card__media{
+        width: 300%;
+        max-width: 1920px;
+        max-height: 780px;
+    }
+}
+.card__e-kolay{
+    justify-content: flex-start !important;
+}
+.card__ars-exidens, .card__santralistanbul, .card__ticktrade, .card__super-marketim{
+    .title{
+        color: white;
+    }
+}
+
+.project__ticktrade{
+    .project__gallery-item--ticktrade-4{
+        // justify-content: flex-end
+        align-items: flex-end;
+    }
+    .project__gallery-item--ticktrade-5{
+        // justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+.project__traweller{
+
+}

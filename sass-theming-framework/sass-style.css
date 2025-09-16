@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #353535;
+}
+
+h1, h2, h3, h4, p, figure, a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: #353535;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .section {
+    min-height: 50dvh;
+  }
+}
+.section .container {
+  width: 1640px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.section .container.layout__column {
+  flex-direction: column;
+}
+.section img {
+  max-width: 100%;
+}
+.section .description {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+@media screen and (max-width: 1024px) {
+  .section .description {
+    width: 100% !important;
+    align-items: flex-start !important;
+  }
+}
+.section .description h1 {
+  font-size: 2.2rem;
+  padding-block-end: 1rem;
+}
+.section .description h2 {
+  font-size: 2rem;
+  padding-block-end: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .section .description h2 {
+    font-size: 1.5rem;
+  }
+}
+.section .description p {
+  font-size: 1.25rem;
+}
+@media screen and (max-width: 1024px) {
+  .section .description p {
+    font-size: 1rem;
+  }
+}
+.section .p100 {
+  max-width: 100%;
+}
+.section .p66 {
+  width: 66.666%;
+}
+.section .p50 {
+  width: 50%;
+}
+.section .p33 {
+  width: 33.333%;
+}
+.section .p100, .section .p66, .section .p50, .section .p33 {
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .section .p100, .section .p66, .section .p50, .section .p33 {
+    width: 100%;
+  }
+}
+
+.cover {
+  background-color: #dddce0;
+  min-height: 75dvh;
+  padding-block-start: 4rem;
+  padding-block-end: 0rem;
+}
+.cover .description {
+  width: 50%;
+  padding-block-end: 6rem;
+}
+
+.unlimited-themes {
+  background-color: #f3f3f5;
+  padding-block: 2rem;
+}
+.unlimited-themes .container {
+  align-items: center;
+}
+.unlimited-themes .description {
+  width: 50%;
+  padding-block-end: 6rem;
+  align-items: center;
+}
+
+.theme-in-minutes {
+  background-color: #dddce0;
+  padding-block: 2rem;
+}
+
+.one-family {
+  padding-block: 2rem;
+}
+.one-family .description {
+  padding-block-end: 6rem;
+  align-items: center;
+}
+
+.pixel-perfect {
+  padding-block: 4rem;
+  color: white;
+  background-color: #191635;
+}
+
+.accessible-by-design {
+  padding-block: 4rem;
+  border-block-end: 1px solid #ccc;
+}
+
+.connected-in-control {
+  border-block-end: 1px solid #ccc;
+  padding-block: 2rem;
+}
+.connected-in-control .container {
+  align-items: center;
+}
+.connected-in-control .description {
+  width: 50%;
+  padding-block-start: 2rem;
+  padding-block-end: 6rem;
+  align-items: center;
+}
+
+.infinite-customization {
+  border-block-end: 1px solid #ccc;
+  padding-block: 4rem;
+}
+.infinite-customization .container {
+  align-items: center;
+}
+.infinite-customization .description {
+  width: 50%;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
+  align-items: center;
+}
+
+.theme-driven {
+  background-color: #b2b2b2;
+}
+
+.built-to-evolve {
+  padding-block: 4rem;
+  color: white;
+  background-color: #191635;
+}
+
+.available-to-all {
+  padding-block: 4rem;
+}
+.available-to-all .container {
+  align-items: center;
+}
+.available-to-all .description {
+  width: 50%;
+  padding-block-start: 2rem;
+  padding-block-end: 5rem;
+  align-items: center;
+}
+
+.name-agnostic {
+  padding-block: 4rem;
+  color: white;
+  background-color: #191635;
+}
+
+.minimal-footprint {
+  background-color: #b2b2b2;
+  padding-block-start: 4rem;
+}/*# sourceMappingURL=sass-style.css.map */
