@@ -10,6 +10,16 @@ $resolution--mobile: 500px;
 $project-title--size: 3.75rem;
 $project-title--size-mobile: 2.75rem;
 
+%round-corners{
+        border: 0.5rem solid white;
+        border-radius: 1rem;
+        overflow: hidden;
+        @media screen and (max-width: $resolution--tablet) {
+            border: 0.25rem solid white;
+            border-radius: 0.5rem;
+        }
+}
+
 *{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -31,21 +41,33 @@ body{
     padding: 0;
     font-size: 1rem;
     color: $body--color;
+    padding: 0.5rem;
+        @media screen and (max-width: $resolution--tablet) {
+        padding: 0.25rem;
+    }
 }
 
 nav{
     position: sticky;
-    top: 0;
-    width: 100%;
+    top: 1rem;
+    left: 1rem;
+    width: calc(100% - 1rem);
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    border-radius: 0.5rem;
     padding: $nav--padding;
     backdrop-filter: blur(3px);
     background-color: rgba($color: #eeeeee, $alpha: 0.7);
     z-index: 101;
+    margin-bottom: 1rem;
+    // @extend %round-corners;
     @media screen and (max-width: $resolution--tablet) {
+        top: 0.5rem;
+        left: 0.5rem;
+        width: calc(100% - 0.5rem);
+        margin-bottom: 0.5rem;
         padding: $nav--padding-mobile;
         justify-content: space-around;
     }
@@ -176,10 +198,14 @@ footer{
         overflow: hidden;
         position: relative;
         float: left;
+        @extend %round-corners;
         .title{
             font-size: 1.75rem;
             font-weight: 300;
             padding-block-end: 1rem;
+            @media screen and (max-width: $resolution--tablet) {
+                padding-block-end: 0.5rem;
+            }
         }
         &.hero{
             height: 75dvh;
@@ -196,8 +222,9 @@ footer{
 
     }
     .project__info{
-        padding: $nav--padding;
-        padding-block-end: 4.5rem;
+        // padding: $nav--padding;
+        padding: 2rem 3rem;
+        // padding-block-end: 4.5rem;
         @media screen and (max-width: $resolution--tablet) {
             padding: $nav--padding-mobile;
             padding-block-end: 2.5rem;
@@ -222,7 +249,8 @@ footer{
 
 }
 .about{
-    padding: $nav--padding;
+    // padding: $nav--padding;
+    padding: 2rem 3rem;
     padding-block-end: 4.5rem;
     @media screen and (max-width: $resolution--tablet) {
         padding: $nav--padding-mobile;
@@ -251,7 +279,7 @@ footer{
     .identifier{
         padding-block-end: 1rem;
         .role{
-            border: none;
+            border: 1px solid transparent;
             white-space: nowrap;
         }
     }
@@ -283,10 +311,10 @@ $identifier__product-other--color: #e91e63;
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
-    @media screen and (max-width: $resolution--tablet) {
-        flex-wrap: wrap;
-        width: 1rem;
-    }
+    // @media screen and (max-width: $resolution--tablet) {
+    //     flex-wrap: wrap;
+    //     width: 1rem;
+    // }
     p{
         border-width: 1px;
         border-style: solid;
@@ -294,6 +322,9 @@ $identifier__product-other--color: #e91e63;
         padding: 0.15rem 0.35rem;
         font-size: 0.85rem;
         font-weight: 600;
+        @media screen and (max-width: $resolution--tablet) {
+            font-size: 0.75rem;
+        }
     }
     .product-ui-ux{
         // border-color: $identifier__product-uiux--color;
@@ -358,6 +389,9 @@ $identifier__product-other--color: #e91e63;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        @extend %round-corners;
+
         &__caption{
             width: 50%;
             padding: 3rem 2rem 2rem 2rem;
@@ -388,6 +422,11 @@ $identifier__product-other--color: #e91e63;
         max-height: 780px;
     }
 }
+.card__further-pass{
+    .title{
+        color: white;
+    }
+}
 .card__e-kolay{
     justify-content: flex-start !important;
 }
@@ -396,7 +435,11 @@ $identifier__product-other--color: #e91e63;
         color: white;
     }
 }
-
+.project__solvoyo{
+    .project__gallery-item{
+        align-items: flex-start;
+    }
+}
 .project__ticktrade{
     .project__gallery-item--ticktrade-4{
         // justify-content: flex-end

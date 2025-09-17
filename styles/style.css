@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.project__gallery-item, .grid .card, .grid .card-simple {
+  border: 0.5rem solid white;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  .project__gallery-item, .grid .card, .grid .card-simple {
+    border: 0.25rem solid white;
+    border-radius: 0.5rem;
+  }
+}
+
 * {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -23,24 +35,37 @@ body {
   padding: 0;
   font-size: 1rem;
   color: #353535;
+  padding: 0.5rem;
+}
+@media screen and (max-width: 1024px) {
+  body {
+    padding: 0.25rem;
+  }
 }
 
 nav {
   position: sticky;
-  top: 0;
-  width: 100%;
+  top: 1rem;
+  left: 1rem;
+  width: calc(100% - 1rem);
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
+  border-radius: 0.5rem;
   padding: 2.5rem;
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
   background-color: rgba(238, 238, 238, 0.7);
   z-index: 101;
+  margin-bottom: 1rem;
 }
 @media screen and (max-width: 1024px) {
   nav {
+    top: 0.5rem;
+    left: 0.5rem;
+    width: calc(100% - 0.5rem);
+    margin-bottom: 0.5rem;
     padding: 1.5rem;
     justify-content: space-around;
   }
@@ -191,6 +216,11 @@ footer a {
   font-weight: 300;
   padding-block-end: 1rem;
 }
+@media screen and (max-width: 1024px) {
+  .grid .card .title, .grid .card-simple .title {
+    padding-block-end: 0.5rem;
+  }
+}
 .grid .card.hero, .grid .card-simple.hero {
   height: 75dvh;
 }
@@ -206,8 +236,7 @@ footer a {
   }
 }
 .grid .project__info {
-  padding: 2.5rem;
-  padding-block-end: 4.5rem;
+  padding: 2rem 3rem;
 }
 @media screen and (max-width: 1024px) {
   .grid .project__info {
@@ -237,7 +266,7 @@ footer a {
 }
 
 .about {
-  padding: 2.5rem;
+  padding: 2rem 3rem;
   padding-block-end: 4.5rem;
 }
 @media screen and (max-width: 1024px) {
@@ -274,7 +303,7 @@ footer a {
   padding-block-end: 1rem;
 }
 .about .identifier .role {
-  border: none;
+  border: 1px solid transparent;
   white-space: nowrap;
 }
 
@@ -301,12 +330,6 @@ footer a {
   flex-direction: row;
   gap: 0.5rem;
 }
-@media screen and (max-width: 1024px) {
-  .identifier {
-    flex-wrap: wrap;
-    width: 1rem;
-  }
-}
 .identifier p {
   border-width: 1px;
   border-style: solid;
@@ -314,6 +337,11 @@ footer a {
   padding: 0.15rem 0.35rem;
   font-size: 0.85rem;
   font-weight: 600;
+}
+@media screen and (max-width: 1024px) {
+  .identifier p {
+    font-size: 0.75rem;
+  }
 }
 .identifier .product-ui-ux {
   border-color: transparent;
@@ -404,12 +432,20 @@ footer a {
   max-height: 780px;
 }
 
+.card__further-pass .title {
+  color: white;
+}
+
 .card__e-kolay {
   justify-content: flex-start !important;
 }
 
 .card__ars-exidens .title, .card__santralistanbul .title, .card__ticktrade .title, .card__super-marketim .title {
   color: white;
+}
+
+.project__solvoyo .project__gallery-item {
+  align-items: flex-start;
 }
 
 .project__ticktrade .project__gallery-item--ticktrade-4 {
